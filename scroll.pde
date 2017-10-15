@@ -26,6 +26,7 @@ void draw() {
 }
 
 void mouseClicked() {
-  y = 100;
+  x = mouseX;
+  y = mouseY;
   vy = 0;
 }
